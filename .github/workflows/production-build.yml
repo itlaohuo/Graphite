@@ -4,8 +4,7 @@ on:
   push:
     tags:
       - "latest-stable"
-  workflow_dispatch:
-    
+     
 
 env:
   CARGO_TERM_COLOR: always
