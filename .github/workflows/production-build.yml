@@ -1,9 +1,16 @@
 name: "Editor: Production (Latest Stable)"
 
+# on:
+#  push:
+#    tags:
+#      - "latest-stable"
 on:
   push:
-    tags:
-      - "latest-stable"
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
      
 
 env:
